@@ -1,0 +1,29 @@
+.post {
+	margin: 20px auto;
+	width: 48%;
+	height: 100px;
+	border: none;
+	background: coral;
+}
+
+.post_inner {
+	display: flex;
+	justify-content: space-around;
+}
+
+.post_author {
+	margin: 0;
+	padding: 5px;
+	font-size: 18px;
+}
+
+.post_date {
+	margin: 0;
+	padding: 8px;
+}
+
+.post_message {
+	margin: 5px;
+	font-weight: bold;
+	font-size: 20px;
+}

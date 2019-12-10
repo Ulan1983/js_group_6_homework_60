@@ -1,0 +1,22 @@
+.inp_author, .inp_message {
+	width: 20%;
+	height: 2rem;
+	border: 1px solid #ccc;
+	outline: none;
+	color: #000;
+	font-size: 14px;
+}
+
+.inp_message {
+	margin-left: 10px;
+}
+
+.btn {
+	height: 2.2rem;
+	width: 5rem;
+	margin-left: 15px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	background: lightcoral;
+}

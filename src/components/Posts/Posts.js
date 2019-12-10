@@ -1,12 +1,14 @@
 import React from 'react';
+import './Posts.css';
 
 const Posts = props => {
     return (
-        <div>
-            <span>{props.author}</span>
-            <span>{props.date}</span>
-            <span>{props.message}</span>
-
+        <div className="post">
+            <div className="post_inner">
+                <p className="post_author">{props.author}</p>
+                <p className="post_date">{props.date}</p>
+            </div>
+            <p className="post_message">{props.message}</p>
         </div>
     );
 };
